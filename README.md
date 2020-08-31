@@ -4,6 +4,7 @@
 
 ![Figure 2](https://github.com/haruncse/Stored-Procedure/blob/master/Figure2.jpg)
 
+``` Oracle SQL
 create table person_info
 (
 pid number,
@@ -87,4 +88,4 @@ begin
 on t1.id=t2.id;
 end;
 /
-
+```
